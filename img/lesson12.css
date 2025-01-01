@@ -1,0 +1,36 @@
+body{
+  background-image: url("backgroundfortistechka.jpg");
+  background-attachment: fixed;
+}
+.anim{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+  position: relative;
+}
+@keyframes example {
+0%{background-color: red; left:0;top: 0;}
+25%{background-color: #ffa300; right:400px;top: 0;}
+50%{background-color: blue; left: 400px; top:200px;}
+75%{background-color: #6c00ff; left: 0; top:200px;}
+100%{background-color: yellow; left:0; top: 0;}
+}
+.spinner{
+  animation-name: fancy-spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  width: 70px;
+  height: 50px;
+
+}
+@keyframes fancy-spin {
+  10%{transform:rotate(0turn) scale(1);}
+  25%{transform:rotate(1turn) scale(1);}
+  50%{transform:rotate(1turn) scale(2);}
+  75%{transform:rotate(0turn) scale(0.5);}
+  100%{transform:rotate(0turn) scale(1);}
+}

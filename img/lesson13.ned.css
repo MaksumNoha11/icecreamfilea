@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  height: 100px;
+  background-color: #dddd68;
+  margin-bottom: 10px;
+}
+main{
+  height: 400px;
+  background-image: url("riba header.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+footer{
+  background-color: wheat;
+  height: 100px;
+}
+.text1{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-family: Calibri;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+
+}
+.riba{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-family: Calibri;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+
+
+}
+.pic{
+  display: block;
+  margin: 0 auto;
+}
+body{
+  background: #e4efa3;
+}
+nav ul{
+  display: flex;
+  background-color: rgba(219, 255, 0, 0.59);
+  justify-content: center;
+  text-align: center;
+}
+nav li{
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+}
+nav li a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+}
+nav a:hover{
+  font-weight: bold;
+  color: rgba(67, 32, 0, 0.52);
+
+}
+nav a:active{
+  color: #000000;
+  font-size: 30px;
+}
+li:hover ul{
+  display: block;
+}
+nav li ul{
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 34%;
+  padding: 20px;
+}

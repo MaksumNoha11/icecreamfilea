@@ -1,0 +1,30 @@
+body{
+  background: #e4efa3;
+}
+nav ul{
+  display: flex;
+  background-color: rgb(104, 100, 251);
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+}
+nav li{
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+}
+nav li a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+}
+nav a:hover{
+
+}
+nav a:active{
+  color: #ffffff;
+  font-size: 30px;
+}
+li:hover ul{
+  display: block;
+}
